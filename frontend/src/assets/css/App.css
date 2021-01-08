@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Comfortaa:wght@300&display=swap');
+
+body {
+      font-family:  'Cormorant Garamond', serif;
+      width: 100vw;
+      height: 100vh;
+      /* background-color: #0a0a0a; */
+      background-color: rgb(255,255,255);
+      z-index: -1;
+}
+
+h1, h2{
+    color: #4d4d4d;  
+    font-family:   'Comfortaa', cursive
+}
+
+/****************    Media Queries   *****************/  
+/* small devices (768px and up) */
+@media only screen and (max-width: 768px) {
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.8rem;}
+    .heading1 { top: 3rem; right: 45%; } 
+    .nav-container { margin-top: -215px; }
+    .skill { margin-top: 1rem; }
+}
+    
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+    h1 { font-size: 2rem; }
+    .heading1 { top: 4rem; right: 45% } 
+    .nav-container { margin-top: -67px;}
+} 
+    
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h1 { font-size: 2rem; }
+    .heading1 { top: 5rem; right: 45% } 
+    .nav-container { margin-top: 60px; }
+} 
+    
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    h1 { font-size: 2.5rem; }  
+    .heading1 {  top: 7rem; right: 45%} 
+    .nav-container {  margin-top: 185px;}
+}
+
+/**************** Login   ********************/
+
+#title {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+    text-shadow: 0px 1px 2px rgba(244,132,95, 0.80) ;
+    background-color: white;
+    margin-bottom: 0%;
+}
+
+.form {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: '100%';
+}
+
+.inputLabel {
+    color:#96410b; 
+    align-self:center;
+    margin-left: 5px;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+/****************   employee home  *****************/
+
+.homePage {
+    display: 'flex';
+    justify-content: 'center';
+    flex-direction: 'column'; 
+    background-color: #ffffff;
+}
+
+#tabPanel {
+    margin: -30px 30px 0px 30px;
+    z-index: -1;
+    /* max-height: 200px; */
+    /* height: 100vh; */
+    /* background-color:  rgba(255, 241, 236, 0.8);; */
+    background-color:  rgba(213, 89, 11, 0.1); 
+    /* position: absolute; */
+    width: -webkit-fill-available;
+    top: 135px;
+}
+  
+/****************   Reimbursement Form  *****************/
+
+#newReimbursementContainer {
+    padding: 2rem;
+    padding-bottom: 5rem;
+}
+
+.fileInput{
+  border-bottom: 4px solid lightgray;
+  border-right: 4px solid lightgray;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  padding: 10px;
+  margin: 15px;
+  cursor: pointer;
+}
+  
+.recptPreview{
+  text-align: center;
+  margin-left: 5rem;
+  height: 250px;
+  width: 50%;
+  border-style: ridge;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/****************    Reimbursement List *****************/
+.labelChip {
+    text-align: center;
+    background-color: whitesmoke;
+    font: small-caption;
+    width: 100%;
+    color: #96410b;
+    border-radius: 10px;
+}
+
+.imageHover:hover {
+    transform: scale(1.5);
+
+}
+
+/****************   Cube  *****************/
+.wrap {
+    position: fixed;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+	perspective: 800px;
+    perspective-origin: 50% 100px;
+    /* z-index: -; */
+}
+.cube {
+	position: relative;
+    transform-style: preserve-3d;
+    animation: spin 15s infinite linear;
+}
+.cube div {
+	position: absolute;
+	width: 200px;
+    height: 200px;
+    box-shadow: inset 0 0 25px rgba(250, 189, 148, 0.7); 
+}
+.back {
+	transform: translateZ(-100px) rotateY(180deg);
+}
+.right {
+	transform: rotateY(-270deg) translateX(100px);
+	transform-origin: top right;
+}
+.left {
+	transform: rotateY(270deg) translateX(-100px);
+	transform-origin: center left;
+}
+.top {
+	transform: rotateX(-90deg) translateY(-100px);
+	transform-origin: top center;
+}
+.bottom {
+	transform: rotateX(90deg) translateY(100px);
+	transform-origin: bottom center;
+}
+.front {
+	transform: translateZ(100px);
+}
+
+@keyframes spin {
+    from { transform: rotateX(0deg) rotateY(0deg);}
+    to { transform: rotateX(360deg) rotateY(360deg);}
+}
+
+
+
+
