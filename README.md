@@ -12,6 +12,7 @@ Java: version 1.8\
 Servlets: version 3.1.0\
 JDBC\
 SQL / PostgreSQL: version 42.2.18\
+AWS - RDS\
 Maven: version 1.8\
 Tomcat: version 9.0\
 Git\
