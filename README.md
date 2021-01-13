@@ -4,18 +4,18 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 ## Technologies Used
 
-React JS: version 17.0.1
-Material UI: version 4.11.2
-ECMAScript 6 / Javascript / HTML5 / CSS3
-AJAX
-Java: version 1.8
-Servlets: version 3.1.0
-JDBC
-SQL / PostgreSQL: version 42.2.18
-Maven: version 1.8
-Tomcat: version 9.0
-Git
-Visual Studio Code
+React JS: version 17.0.1\
+Material UI: version 4.11.2\
+ECMAScript 6 / Javascript / HTML5 / CSS3\
+AJAX\
+Java: version 1.8\
+Servlets: version 3.1.0\
+JDBC\
+SQL / PostgreSQL: version 42.2.18\
+Maven: version 1.8\
+Tomcat: version 9.0\
+Git\
+Visual Studio Code\
 Eclipse: Spring Tool Suit 4
 
 ## Features
@@ -33,12 +33,12 @@ Eclipse: Spring Tool Suit 4
 
 ## Getting Started and Usage
 
--> Git clone https://github.com/Antardeep/Expense-Reimbursement-System.git
--> change directory to frontend and do -> npm install
--> run code using command -> npm start
--> Open ERsystem in Eclipse or IntelliJ
--> Run the code on Tomcat Server
-The application is ready to use
+-> Git clone https://github.com/Antardeep/Expense-Reimbursement-System.git\
+-> change directory to frontend and do -> npm install\
+-> run code using command -> npm start\
+-> Open ERsystem in Eclipse or IntelliJ\
+-> Run the code on Tomcat Server\
+The application is ready to use\
 
 
 
