@@ -33,6 +33,7 @@ Eclipse: Spring Tool Suit 4
 3. Can View the reciept of expenses the employee uploaded.
 4. Filter request by status - Pending/ Approved / Denied
 5. Approve or Deny reimbursement request
+![Alt](/usecase.png "usecase")
 
 ### Used CSS Animations for making UI Appealing
 
@@ -54,6 +55,7 @@ The application is ready to use\
 - Manager can approve/decline tickets by looking at request details and reciept.
 - Manager can filter by ticket status (approved, pending, denied)
 - Manager can logout
+![Alt](/activity.png "activity")
 
 ## Development Tool
 - Eclipse - Spring Tools Suit 4
