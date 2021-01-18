@@ -24,15 +24,19 @@ Eclipse: Spring Tool Suit 4
 ### Employee: 
 1. Login
 2. Add Reimbursement Request -> Reimbursement Types: Employees can select the type of reimbursement as: LODGING, TRAVEL, FOOD, or OTHER
-3. View past tickets
+3. Can Upload the reciept of expenses.
+4. View past tickets - Approved / Pending / Rejected
 
 ### Finance Manager
 1. Login
 2. View all reimbursement requests from all employees
-3. Filter request by status - Pending/ Approved / Denied
-4. Approve or Deny reimbursement request
+3. Can View the reciept of expenses the employee uploaded.
+4. Filter request by status - Pending/ Approved / Denied
+5. Approve or Deny reimbursement request
 
-## Getting Started and Usage
+### Used CSS Animations for making UI Appealing
+
+## Getting Started
 
 -> Git clone https://github.com/Antardeep/Expense-Reimbursement-System.git\
 -> change directory to frontend and do -> npm install\
@@ -40,6 +44,25 @@ Eclipse: Spring Tool Suit 4
 -> Open ERsystem in Eclipse or IntelliJ\
 -> Run the code on Tomcat Server\
 The application is ready to use\
+
+## Usage
+- Login as either an Employee or as a Manager
+- Employee can apply for reimbursement
+- Employee can view all personal past tickets
+- Employee can logout
+- Manager can view all tickets (both current and past)
+- Manager can approve/decline tickets by looking at request details and reciept.
+- Manager can filter by ticket status (approved, pending, denied)
+- Manager can logout
+
+## Development Tool
+- Eclipse - Spring Tools Suit 4
+- Visual Studio code
+- Postman
+- DBeaver
+
+## ER Diagram
+![Alt](/ERD.png "ERD")
 
 
 
