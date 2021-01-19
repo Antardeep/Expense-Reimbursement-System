@@ -66,7 +66,9 @@ The application is ready to use\
 ## ER Diagram
 ![Alt](/ERD.png "ERD")
 
+## License
 
+The project is under the GNU General Public License
 
 
 
